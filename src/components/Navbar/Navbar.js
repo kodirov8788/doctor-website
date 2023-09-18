@@ -12,6 +12,7 @@ function Navbar() {
   };
   return (
     <div>
+      {/* Search page started */}
       {search ? <NavbarSearch search={search} setSearch={setSearch} /> : ""}
       <div className="bg-[rgb(0,133,122)] text-white pr-20 py-2 hidden lg:block">
         <ul className="lg:flex lg:justify-end gap-5">
@@ -29,6 +30,8 @@ function Navbar() {
           </li>
         </ul>
       </div>
+      {/* Search page finished */}
+      {/* Navbar started */}
       <nav className="bg-[rgb(29,26,32)] hover:bg-[rgb(24,24,24)] ease-out duration-100 text-white flex justify-around items-center py-5 h-[105px]">
         <div className="flex items-center">
           <img src={Img1} alt="" className="w-[163px] h-[70px]" />
@@ -105,7 +108,9 @@ function Navbar() {
           )}
         </div>
       </nav>
+      {/* Navbar finished */}
       <div className=""></div>
+      {/* Menubar started */}
       {menu ? (
         <div>
           <div>
@@ -217,6 +222,7 @@ function Navbar() {
       ) : (
         ""
       )}
+      {/* Menubar finished*/}
     </div>
   );
 }
