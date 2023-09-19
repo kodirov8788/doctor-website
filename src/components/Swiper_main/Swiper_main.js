@@ -23,13 +23,13 @@ function Swiper_main() {
                 <h1 className='text-[28px] md:text-[40px] font-normal'>The Latest</h1>
             </div>
             <div className="w-full sm:h-[320px] md:h-[148px]  gap-[27px] md:flex  ">
-                <div className="sm:w-full h-[148px] md:w-[49%]  bg-white flex items-center justify-between ">
-                    <div className="w-[60px] h-[120px] hover:h-[140px] transition-[1s] hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
+                <div className="sm:w-full h-[148px] md:w-[49%]  bg-white flex items-center justify-between group">
+                    <div className="w-[60px] h-[120px] group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>Recovery Month: Join our fight against addiction.</h1>
                     <BsArrowRight className='text-[20px] text-[#00857a] mr-5 ' />
                 </div>
-                <div className="sm:w-full h-[148px] mt-4 md:w-[49%] md:mt-0  bg-white flex items-center justify-between ">
-                    <div className="w-[60px] h-[120px] hover:h-[140px] transition-[1s] hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
+                <div className="sm:w-full h-[148px] mt-4 md:w-[49%] md:mt-0  bg-white flex items-center justify-between group">
+                    <div className="w-[60px] h-[120px]  group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>EQTY 2023: A Summit for Health Justice</h1>
                     <BsArrowRight className='text-[20px] text-[#00857a] mr-5' />
                 </div>
@@ -115,25 +115,25 @@ function Swiper_main() {
 
             {/* 4-qismi */}
             <div className="w-full  h-[550px] sm:h-[650px] md:h-[360px] md:flex  mt-20">
-                    <div className="w-full md:w-[50%] h-[225px] sm:h-[360px] "> <img className='object-cover w-full h-full' src={swiper9_img} alt="" /></div>
-                    <div className="w-full md:w-[50%] h-[325px] sm:pl-5 md:pl-10  ">
-                        <h1 className='text-[24px] md:text-[36px] mt-5'>Support BMC’s Mission</h1>
-                        <h1 className='text-[16px] leading-6 mt-6 md:text-[11px] md:leading-4 lg:text-[16px] lg:leading-6'>Philanthropic support is essential to helping Boston Medical Center provide exceptional care, without exception to the people of Greater Boston. Whether you are an individual, a corporation or a community organization, there are many ways you can support BMC.</h1>
-                        <button className='w-full sm:w-[180px] h-[46px] mt-[25px]  rounded-md bg-[#00857A] hover:bg-[#00857abc] text-white text-[18px] flex items-center justify-center gap-5 hover:gap-8 ease-in duration-300'> Learn More  <BsArrowRight /></button>
-                    </div>
+                <div className="w-full md:w-[50%] h-[225px] sm:h-[360px] "> <img className='object-cover w-full h-full' src={swiper9_img} alt="" /></div>
+                <div className="w-full md:w-[50%] h-[325px] sm:pl-5 md:pl-10  ">
+                    <h1 className='text-[24px] md:text-[36px] mt-5'>Support BMC’s Mission</h1>
+                    <h1 className='text-[16px] leading-6 mt-6 md:text-[11px] md:leading-4 lg:text-[16px] lg:leading-6'>Philanthropic support is essential to helping Boston Medical Center provide exceptional care, without exception to the people of Greater Boston. Whether you are an individual, a corporation or a community organization, there are many ways you can support BMC.</h1>
+                    <button className='w-full sm:w-[180px] h-[46px] mt-[25px]  rounded-md bg-[#00857A] hover:bg-[#00857abc] text-white text-[18px] flex items-center justify-center gap-5 hover:gap-8 ease-in duration-300'> Learn More  <BsArrowRight /></button>
+                </div>
             </div>
-            
+
 
             <div className="w-full h-[650px]  sm:h-[720px] md:h-[430px] md:flex ">
-                    <div className="w-full md:hidden  md:w-[50%] h-[225px] sm:h-[360px] md:h-[430px]"> <img className='object-cover w-full h-full' src={swiper10_img} alt="" /></div>
-                    <div className="w-full  md:w-[50%] h-[325px] sm:pl-5 md:pl-10  ">
-                        <h1 className='text-[24px]  md:text-[36px] mt-5'>BMC Careers - Join Our Team!</h1>
-                        <h1 className='text-[16px]  leading-6 mt-6 md:text-[11px] md:leading-4 lg:text-[16px] lg:leading-6'>Working at Boston Medical Center means you're part of a mission to provide exceptional and equitable care. And our dedication to providing an exceptional experience extends to our employees too.</h1>
-                        <h1 className='text-[16px] leading-6 mt-6 '>We're hiring for all positions, including nurses, radiology technologists, medical assistants, pharmacy techs, and more. Check out our exciting opportunities and apply to join our team today!</h1>
-                        <button className='w-full sm:w-[180px] h-[46px] mt-[25px] lg:mt-[17px] xl:mt-10 rounded-md bg-[#00857A] hover:bg-[#00857abc] text-white text-[18px] flex items-center justify-center gap-5 hover:gap-8 ease-in duration-300'> Learn More  <BsArrowRight /></button>
-                    </div>
-                    <div className="w-full hidden  h-[225px] sm:h-[360px] md:flex md:w-[50%] md:h-[430px]"> <img className='object-cover w-full h-full' src={swiper10_img} alt="" /></div>
-                   
+                <div className="w-full md:hidden  md:w-[50%] h-[225px] sm:h-[360px] md:h-[430px]"> <img className='object-cover w-full h-full' src={swiper10_img} alt="" /></div>
+                <div className="w-full  md:w-[50%] h-[325px] sm:pl-5 md:pl-10  ">
+                    <h1 className='text-[24px]  md:text-[36px] mt-5'>BMC Careers - Join Our Team!</h1>
+                    <h1 className='text-[16px]  leading-6 mt-6 md:text-[11px] md:leading-4 lg:text-[16px] lg:leading-6'>Working at Boston Medical Center means you're part of a mission to provide exceptional and equitable care. And our dedication to providing an exceptional experience extends to our employees too.</h1>
+                    <h1 className='text-[16px] leading-6 mt-6 '>We're hiring for all positions, including nurses, radiology technologists, medical assistants, pharmacy techs, and more. Check out our exciting opportunities and apply to join our team today!</h1>
+                    <button className='w-full sm:w-[180px] h-[46px] mt-[25px] lg:mt-[17px] xl:mt-10 rounded-md bg-[#00857A] hover:bg-[#00857abc] text-white text-[18px] flex items-center justify-center gap-5 hover:gap-8 ease-in duration-300'> Learn More  <BsArrowRight /></button>
+                </div>
+                <div className="w-full hidden  h-[225px] sm:h-[360px] md:flex md:w-[50%] md:h-[430px]"> <img className='object-cover w-full h-full' src={swiper10_img} alt="" /></div>
+
             </div>
             {/* 4-qismi */}
 
