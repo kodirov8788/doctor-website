@@ -16,6 +16,11 @@ import swiper10_img from "../Swiper_main_img/swiper10.webp"
 import 'swiper/css';
 import 'swiper/css/pagination';
 function Swiper_main() {
+    const getScreensize = () => {
+        return window.screen.width
+    }
+
+
     return (
         <div className="bg-[#F1F1F1] pl-5 pr-5 md:pl-7 md:pr-7">
             {/*  1-qismi main */}
@@ -41,7 +46,7 @@ function Swiper_main() {
             {/*  2-qismi  Swiper  */}
             <div className=" w-full h-[380px] sm:h-[400px] md:h-[570px] mt-10 ">
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={getScreensize() < 640 ? 1 : 3}
                     spaceBetween={15}
                     pagination={{
                         clickable: true,
