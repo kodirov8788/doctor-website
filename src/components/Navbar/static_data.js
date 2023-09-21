@@ -2,171 +2,46 @@ export const nav_data = [
   {
     id: 1,
     name: "About BMC",
-    object: [
-      {
+    object: [{
         id: 1,
-        name: "About BMC",
-        description:
-          "Boston Medical Center is committed to empowering all patients to thrive, through our innovative and equitable care. In addition to this commitment, our leadership in health equity, research, and teaching is driving the future of care.",
-        words: [
-            {
-                id:1,
-                name: "Who We Are "
-            },
-            {
-                id:2,
-                name: "Mission "
-            },
-            {
-                id:3,
-                name: "Diversity,Equity, and Inclusion "
-            },
-            {
-                id:4,
-                name: "Health Equity Accelerator "
-            },
-            {
-                id:5,
-                name: "Quality and Safety "
-            }
-        ],
-      },
-    ],
+        name:"About BMC",
+        desc: "Who We Are"
+    }],
   },
   {
     id: 2,
-    name: "Departments",
-    object: [
-      {
+    name: "Departments & Conditions",
+    object: [{
         id: 1,
-        name: "About BMC",
-        description:
-          "Boston Medical Center is committed to empowering all patients to thrive, through our innovative and equitable care. In addition to this commitment, our leadership in health equity, research, and teaching is driving the future of care.",
-        words: [
-            {
-                id:1,
-                name: "Who We Are "
-            },
-            {
-                id:2,
-                name: "Mission "
-            },
-            {
-                id:3,
-                name: "Diversity,Equity, and Inclusion "
-            },
-            {
-                id:4,
-                name: "Health Equity Accelerator "
-            },
-            {
-                id:5,
-                name: "Quality and Safety "
-            }
-        ],
-      },
-    ],
+        name:"Departments & Conditions",
+        desc: "Addition Medicine"
+    }],
   },
   {
     id: 3,
     name: "Patients & Visitors",
-    object: [
-      {
+    object: [{
         id: 1,
-        name: "About BMC",
-        description:
-          "Boston Medical Center is committed to empowering all patients to thrive, through our innovative and equitable care. In addition to this commitment, our leadership in health equity, research, and teaching is driving the future of care.",
-        words: [
-            {
-                id:1,
-                name: "Who We Are "
-            },
-            {
-                id:2,
-                name: "Mission "
-            },
-            {
-                id:3,
-                name: "Diversity,Equity, and Inclusion "
-            },
-            {
-                id:4,
-                name: "Health Equity Accelerator "
-            },
-            {
-                id:5,
-                name: "Quality and Safety "
-            }
-        ],
-      },
-    ],
+        name:"Patients & Visitors",
+        desc: "Patient Information"
+    }],
   },
   {
     id: 4,
     name: "For Medical Professionals",
-    object: [
-      {
+    object: [{
         id: 1,
-        name: "About BMC",
-        description:
-          "Boston Medical Center is committed to empowering all patients to thrive, through our innovative and equitable care. In addition to this commitment, our leadership in health equity, research, and teaching is driving the future of care.",
-        words: [
-            {
-                id:1,
-                name: "Who We Are "
-            },
-            {
-                id:2,
-                name: "Mission "
-            },
-            {
-                id:3,
-                name: "Diversity,Equity, and Inclusion "
-            },
-            {
-                id:4,
-                name: "Health Equity Accelerator "
-            },
-            {
-                id:5,
-                name: "Quality and Safety "
-            }
-        ],
-      },
-    ],
+        name:"For Medical Professionals",
+        desc: "Tools and Resources"
+    }],
   },
   {
     id: 5,
-    name: "About BMC",
-    object: [
-      {
+    name: "Research",
+    object: [{
         id: 1,
-        name: "About BMC",
-        description:
-          "Boston Medical Center is committed to empowering all patients to thrive, through our innovative and equitable care. In addition to this commitment, our leadership in health equity, research, and teaching is driving the future of care.",
-        words: [
-            {
-                id:1,
-                name: "Who We Are "
-            },
-            {
-                id:2,
-                name: "Mission "
-            },
-            {
-                id:3,
-                name: "Diversity,Equity, and Inclusion "
-            },
-            {
-                id:4,
-                name: "Health Equity Accelerator "
-            },
-            {
-                id:5,
-                name: "Quality and Safety "
-            }
-        ],
-      },
-    ],
+        name:"Research",
+        desc: "Research at BMC"
+    }],
   },
 ];

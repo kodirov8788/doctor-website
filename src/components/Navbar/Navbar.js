@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Img1 from "../../images/BMC_logo.png";
 import { Link } from "react-router-dom";
 import NavbarSearch from "./search/NavbarSearch";
+import Navbar_Item from "./Navbar_Item";
+import { nav_data } from "./static_data";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -11,7 +13,7 @@ function Navbar() {
     setMenu(!menu);
   };
   return (
-    <div>
+    <div className="bg-[url('./images/doctor.png')] w-full h-screen bg-cover">
       {/* Search page started */}
       {search ? <NavbarSearch search={search} setSearch={setSearch} /> : ""}
       <div className="bg-[rgb(0,133,122)] text-white pr-20 py-2 hidden lg:block">
@@ -32,26 +34,12 @@ function Navbar() {
       </div>
       {/* Search page finished */}
       {/* Navbar started */}
-      <nav className="bg-[rgb(29,26,32)] hover:bg-[rgb(24,24,24)] ease-out duration-100 text-white flex justify-around items-center py-5 h-[105px]">
+      <nav className="lg:bg-black/40 bg-[rgb(24,24,24)]  hover:bg-[rgb(24,24,24)] ease-out duration-100 text-white flex justify-around items-center py-5 h-[105px]">
         <div className="flex items-center">
           <img src={Img1} alt="" className="w-[163px] h-[70px]" />
-          <ul className="hidden lg:flex items-center ml-7">
-            <Link className="w-[111px] h-[105px] text-center pt-6 hover:bg-black hover:border-b-8 border-[rgb(203,148,29)]">
-              About <br /> BMC
-            </Link>
-            <Link className="w-[163px] h-[105px] text-center pt-6 hover:bg-black hover:border-b-8 border-[rgb(203,148,29)]">
-              Debartments <br /> & Conditions
-            </Link>
-            <Link className="w-[137px] h-[105px] text-center pt-6 hover:bg-black hover:border-b-8 border-[rgb(203,148,29)]">
-              Patients <br /> & Visitors
-            </Link>
-            <Link className="w-[165px] h-[105px] text-center pt-6 hover:bg-black hover:border-b-8 border-[rgb(203,148,29)]">
-              For Medical <br /> Professionals
-            </Link>
-            <Link className="w-[134px] h-[105px] text-center pt-10 hover:bg-black hover:border-b-8 border-[rgb(203,148,29)]">
-              Research
-            </Link>
-          </ul>
+          {nav_data.map((data) => (
+            <Navbar_Item data={data} />
+          ))}
         </div>
         <div className="flex items-center">
           <div className="hover:bg-black w-10 h-10 flex justify-center items-center">
@@ -116,7 +104,7 @@ function Navbar() {
           <div>
             <ul className="bg-[rgb(24,24,24)] h-[400px]">
               <li className="hover:bg-black w-full h-14 flex justify-between px-5 items-center text-white">
-                <Link to={"#"}>MyChart</Link>{" "}
+                <Link to={"#"}>About BMC</Link>{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -133,7 +121,7 @@ function Navbar() {
                 </svg>
               </li>
               <li className="hover:bg-black w-full h-14 flex justify-between px-5 items-center text-white">
-                <Link to={"#"}>Donate</Link>{" "}
+                <Link to={"#"}>Departments & Conditions</Link>{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -150,7 +138,7 @@ function Navbar() {
                 </svg>
               </li>
               <li className="hover:bg-black w-full h-14 flex justify-between px-5 items-center text-white">
-                <Link to={"#"}>Refer a patient</Link>{" "}
+                <Link to={"#"}>Patients & Visitors</Link>{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -167,7 +155,7 @@ function Navbar() {
                 </svg>
               </li>
               <li className="hover:bg-black w-full h-14 flex justify-between px-5 items-center text-white">
-                <Link to={"#"}>Request an appointed</Link>{" "}
+                <Link to={"#"}>For Medical Professionals</Link>{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
