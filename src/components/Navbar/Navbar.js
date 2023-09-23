@@ -13,7 +13,7 @@ function Navbar() {
     setMenu(!menu);
   };
   return (
-    <div className="bg-[url('./images/doctor.png')] w-full h-screen bg-cover">
+    <div>
       {/* Search page started */}
       {search ? <NavbarSearch search={search} setSearch={setSearch} /> : ""}
       <div className="bg-[rgb(0,133,122)] text-white pr-20 py-2 hidden lg:block">

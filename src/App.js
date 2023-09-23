@@ -4,11 +4,8 @@ import Main from "./components/main/Main";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">3
       <Swiper_main />
-      <Routes>
-        <Route path="/" element={<Main/>}/>
-      </Routes>
     </div>
   );
 }
