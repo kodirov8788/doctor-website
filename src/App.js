@@ -1,9 +1,10 @@
+import Swiper_main from "./components/Swiper_main/Swiper_main";
 
 
 function App() {
   return (
     <div className="App">
-      <h1></h1>
+      <Swiper_main />
     </div>
   );
 }
