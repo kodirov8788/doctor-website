@@ -1,16 +1,31 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function Navbar_Item({ data }) {
-  const [modalText, setModalText] = useState(false);
+function Navbar_Item({ data,modalText,setModalText }) {
+const [openClone, setopenClone] = useState(false)
+  // console.log(modalText)
   const handleModalText = () => {
     setModalText(!modalText);
+   
   };
+
+  const Closeopen=()=>{
+    if(openClone){
+      setopenClone(false)
+      setModalText(false);
+    }else{
+      // setModalText(false);
+
+      setopenClone(true)
+    }
+   
+  }
+  
   return (
     <div>
       <ul
         className="hidden lg:flex justify-center items-center ml-7"
-        onClick={() => handleModalText()}
+        onClick={() => Closeopen()}
       >
         <Link
           to={"single"}
@@ -24,7 +39,7 @@ function Navbar_Item({ data }) {
         ? data.object.map((item) => (
             <div
               className="w-full h-5/6 bg-black absolute left-0 top-36 text-white"
-              key={item.id}
+              key={item?.id}
             >
               <h1>{item.name}</h1>
               <h1>{item.desc}</h1>

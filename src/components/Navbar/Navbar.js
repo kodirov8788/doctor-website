@@ -5,10 +5,11 @@ import NavbarSearch from "./search/NavbarSearch";
 import Navbar_Item from "./Navbar_Item";
 import { nav_data } from "./static_data";
 
-function Navbar() {
+function Navbar({}) {
   const [menu, setMenu] = useState(false);
   const [search, setSearch] = useState(false);
-
+  const [modalText, setModalText] = useState(false);
+// console.log(menu)
   const ModalMenu = () => {
     setMenu(!menu);
   };
@@ -34,11 +35,12 @@ function Navbar() {
       </div>
       {/* Search page finished */}
       {/* Navbar started */}
-      <nav className="lg:bg-black/40 bg-[rgb(24,24,24)]  hover:bg-[rgb(24,24,24)] ease-out duration-100 text-white flex justify-around items-center py-5 h-[105px]">
+      <nav className="lg:bg-black/40 bg-[rgb(24,24,24)]  hover:bg-[rgb(24,24,24)] ease-out duration-100 text-white flex
+       justify-around items-center py-5 h-[105px]">
         <div className="flex items-center">
           <img src={Img1} alt="" className="w-[163px] h-[70px]" />
           {nav_data.map((data) => (
-            <Navbar_Item data={data} />
+            <Navbar_Item data={data} modalText={modalText}setModalText={setModalText}  />
           ))}
         </div>
         <div className="flex items-center">

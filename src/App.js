@@ -1,3 +1,4 @@
+import Singlepage from "./pages/singlePage/Singlepage";
 
 
 function App() {
