@@ -21,9 +21,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/single/:id" element={<Singlepage />} />
       </Routes>
-    </BrowserRouter>
     <App />
   </BrowserRouter>
    
-  </React.StrictMode >
+  </React.StrictMode>
 );
