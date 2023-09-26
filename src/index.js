@@ -7,15 +7,25 @@ import Navbar from "./components/Navbar/Navbar";
 import Singlepage from "./pages/singlePage/Singlepage";
 import './index.css';
 
+import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/single/:id" element={<Singlepage />} />
       </Routes>
     </BrowserRouter>
+
+    <App />
+    
+    
+    
+
   </React.StrictMode>
 );
