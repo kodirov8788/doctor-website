@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
-      <Routes>  
+      <Routes>
         <Route path="/" element={<App />} />
         <Route path="/single/:id" element={<Singlepage />} />
       </Routes>
