@@ -32,14 +32,20 @@ function Swiper_main() {
                     <div className="w-[60px] h-[120px] group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>Recovery Month: Join our fight against addiction.</h1>
                     <BsArrowRight className='text-[20px] text-[#00857a] mr-5 ' />
+                    <div className="w-[60px] ">
+                        <BsArrowRight className='text-[20px] text-[#00857a]  group-hover:ml-5 duration-200 group-hover:text-[#0f4e49] group-hover:text-[30px]' />
+                    </div>
                 </div>
                 <div className="sm:w-full h-[148px] mt-4 md:w-[49%] md:mt-0  bg-white flex items-center justify-between group">
                     <div className="w-[60px] h-[120px]  group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>EQTY 2023: A Summit for Health Justice</h1>
                     <BsArrowRight className='text-[20px] text-[#00857a] mr-5' />
+                    <div className="w-[60px] ">
+                        <BsArrowRight className='text-[20px] text-[#00857a]  group-hover:ml-5 duration-200 group-hover:text-[#0f4e49] group-hover:text-[30px]' />
+                    </div>
+
                 </div>
             </div>
-            {/*  1-qismi main */}
 
 
 
@@ -94,10 +100,44 @@ function Swiper_main() {
                         <div className="w-full flex items-center justify-between p-5"><h1 className='text-[5px] sm:text-[10px] md:text-[17px] w-[300px]  font-semibold'>People of Color With Disabilities Face Double Discrimination</h1><BsArrowRight className='text-[20px] text-[#00857a]' /></div>
                         <h1 className='ml-5 text-[5px] sm:text-[10px] md:text-[17px]'>Racism and ableism together create greater health disparities and call for stronger practices that increase access, reduce costs, and promote equity.</h1>
                         <h1 className='ml-5 md:mt-14 text-[5px] sm:text-[10px] md:text-[17px]'>Aug 24,2023</h1>
+
                     </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'>
+                        <div className="w-full h-[240px] "><img className='w-full h-full object-cover object-center' src={swiper1_img} alt="" /></div>
+                        <div className="w-full  flex items-center  p-5 "><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Boston Medical Center Health System Hosts EQTY 2023: A Summit for Health Justice</h1><BsArrowRight className='text-[20px] text-[#00857a] ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5  sm:text-[10px] md:text-[17px]'>Sep 14,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper2_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Addressing Social Determinants of Health in Post-Overdose Outreach Associated with Greater Reduction in Fatal Opioid Overdoses</h1><BsArrowRight className='text-[20px] sm:text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5   sm:text-[10px] md:text-[17px]'>Sep 14,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper3_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Use of Injectable Extended-Release Buprenorphine Limited by Cost and Treatment Retention</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Sep 13,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper4_img} alt="" /></div>
+                        <div className="w-full flex items-center p-5"><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Linking Infectious and Narcology Care is Effective in Suppressing HIV in People who Inject Drugs in Russia</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Sep 1,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper5_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Helping Healthcare Providers Process Grief After Overdose Deaths</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Losing patients to overdose can present special grief challenges for healthcare providers. Peer and employer support can help.</h1>
+                        <h1 className='ml-5  text-[10px] sm:text-[10px] md:text-[17px] md:mt-14'>Aug 31,2023</h1>
 
-
-
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper6_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[12px] md:text-[17px] w-[300px]  font-semibold'>Boston Medical Center Recognizes Overdose Awareness Day and National Recovery Month</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Aug 31,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper7_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[10px] md:text-[17px] w-[300px]  font-semibold'>CHEER Receives $6,000,000 Cooperative Agreement from the Centers for Disease Control and Prevention (CDC)</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Aug 28,2023</h1>
+                    </SwiperSlide>
+                    <SwiperSlide className=' bg-white group'><div className="w-full h-[240px] "> <img className='w-full h-full object-cover object-center' src={swiper8_img} alt="" /></div>
+                        <div className="w-full flex items-center  p-5"><h1 className='text-[10px] sm:text-[10px] md:text-[17px] w-[300px]  font-semibold'>People of Color With Disabilities Face Double Discrimination</h1><BsArrowRight className='text-[20px] text-[#00857a]  ml-4  md:group-hover:ml-[40px] md:group-hover:text-[30px] md:group-hover:text-[#0f4e49] duration-200' /></div>
+                        <h1 className='ml-5 text-[10px] sm:text-[10px] md:text-[17px]'>Racism and ableism together create greater health disparities and call for stronger practices that increase access, reduce costs, and promote equity.</h1>
+                        <h1 className='ml-5 md:mt-14 text-[10px] sm:text-[10px] md:text-[17px]'>Aug 24.2023</h1>
+                    </SwiperSlide>
                 </Swiper>
 
             </div>
@@ -141,10 +181,6 @@ function Swiper_main() {
 
             </div>
             {/* 4-qismi */}
-
-
-
-
         </div>
 
     )

@@ -1,9 +1,22 @@
 
+import Main from "./components/main/Main";
+import Swiper_main from "./components/Swiper_main/Swiper_main";
+
+import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+     
+
+      <Main/>
+      
+      <Swiper_main />
+
+      <Footer/>
+
     </div>
   );
 }
