@@ -22,7 +22,7 @@ function Swiper_main() {
 
 
     return (
-        <div className="bg-[#F1F1F1] pl-5 pr-5 md:pl-7 md:pr-7">
+        <div className="bg- pl-5 pr-5 md:pl-7 md:pr-7">
             {/*  1-qismi main */}
             <div className="w-full sm:h-[80px] md:h-[120px]  flex items-center justify-center">
                 <h1 className='text-[28px] md:text-[40px] font-normal'>The Latest</h1>
@@ -31,7 +31,7 @@ function Swiper_main() {
                 <div className="sm:w-full h-[148px] md:w-[49%]  bg-white flex items-center justify-between group">
                     <div className="w-[60px] h-[120px] group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>Recovery Month: Join our fight against addiction.</h1>
-                    <BsArrowRight className='text-[20px] text-[#00857a] mr-5 ' />
+                  
                     <div className="w-[60px] ">
                         <BsArrowRight className='text-[20px] text-[#00857a]  group-hover:ml-5 duration-200 group-hover:text-[#0f4e49] group-hover:text-[30px]' />
                     </div>
@@ -39,7 +39,7 @@ function Swiper_main() {
                 <div className="sm:w-full h-[148px] mt-4 md:w-[49%] md:mt-0  bg-white flex items-center justify-between group">
                     <div className="w-[60px] h-[120px]  group-hover:h-[140px] transition-[1s] group-hover:w-[68px] bg-[#EBAB21] rounded-r-[100px]"></div>
                     <h1 className='text-[18px] text-[#181818] font-semibold '>EQTY 2023: A Summit for Health Justice</h1>
-                    <BsArrowRight className='text-[20px] text-[#00857a] mr-5' />
+              
                     <div className="w-[60px] ">
                         <BsArrowRight className='text-[20px] text-[#00857a]  group-hover:ml-5 duration-200 group-hover:text-[#0f4e49] group-hover:text-[30px]' />
                     </div>
